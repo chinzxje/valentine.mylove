@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#01A9B4;
+            color: #FBFD8A;
+		}
+		#activityquestion {
+			font-size: 65px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 40px;
+            vertical-align: top;
+			color: #FBFD8A;
+        }
+        .activity-item img {
+            width: 300px; 
+            height: auto;
+			padding: 20px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 30px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#fbced8;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #fbced8;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>Nơi mà bọn mình sẽ đi?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/cinema.jpg" alt ="cinema">
+			<label><input type="checkbox" name="activities" value ="cinema">cinema</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/doki.jpg" alt ="hotpot">
+			<label><input type="checkbox" name="activities" value ="hotpot">hotpot</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/coffee.jpg" alt ="coffee">
+			<label><input type="checkbox" name="activities" value ="coffee">coffee</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/totuong.jpg" alt ="ceramics">
+			<label><input type="checkbox" name="activities" value ="ceramics">ceramics</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/exhibition.jpg" alt ="exhibition">
+			<label><input type="checkbox" name="activities" value ="exhibition">exhibition</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/park.jpg" alt ="park.jpeg">
+			<label><input type="checkbox" name="activities" value ="park.jpeg">park</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Last page</button>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Selection</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#01A9B4;
+            color: #FBFD8A;
+        }
+        #foodquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FBFD8A;
+        }
+        .food-item img {
+            width: 300px; 
+            height: auto;
+			padding: 10px;
+        }
+        .food-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#fbced8;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #fbced8;
+        }
+    </style>
+</head>
+<body>
+    <div id="foodquestion"><b><u>Những món ăn mà em muốn?</u></b></div>
+    
+    <div class="food-selection">
+        <div class="food-item">
+            <img src="food/sinhtobo.jpg" alt="sinh tố bơ">
+            <label><input type="checkbox" name="food" value="sinh tố bơ"> sinh tố bơ</label>
+        </div>
+        <div class="food-item">
+            <img src="food/suonxaochuangot.jpg" alt="sườn chua ngọt">
+            <label><input type="checkbox" name="food" value="sườn chua ngọt"> sườn chua ngọt</label>
+        </div>
+        <div class="food-item">
+            <img src="food/khoaitayxao.jpg" alt="khoai tây xào">
+            <label><input type="checkbox" name="food" value="khoai tây xào">khoai tây xào</label>
+        </div>
+        <div class="food-item">
+            <img src="food/bunchacham.jpg" alt="bún chả chấm">
+            <label><input type="checkbox" name="food" value="bún chả chấm"> bún chả chấm</label>
+        </div>
+        <div class="food-item">
+            <img src="food/phocuon.jpg" alt="phở cuốn">
+            <label><input type="checkbox" name="food" value="phở cuốn"> phở cuốn</label>
+        </div>
+        <div class="food-item">
+            <img src="food/canhbau.jpg" alt="canh bầu">
+            <label><input type="checkbox" name="food" value="canh bầu"> canh bầu</label>
+        </div>
+        <div class="food-item">
+            <img src="food/icecream.jpg" alt="ice cream">
+            <label><input type="checkbox" name="food" value="ice cream"> ice cream</label>
+        </div>
+        <div class="food-item">
+            <img src="food/khoailang.jpg" alt="khoai lang ">
+            <label><input type="checkbox" name="food" value="khoai lang"> khoai lang</label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='dessert.html'">Continue UwU</button>
+    
+</body>
+</html>
